@@ -1,0 +1,12 @@
+services:
+  crypto-etl:
+    build: .
+    container_name: crypto-etl
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+      - TZ=America/Belem
