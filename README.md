@@ -30,7 +30,7 @@ Criar um pipeline 100% automatizado que:
 
 ### 🔹 Passos
 
-1. Clone o repositório:
+1. Clone o repositório
 
 2. Rode o projeto com:
 
